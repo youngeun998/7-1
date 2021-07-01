@@ -1,46 +1,194 @@
-.living-lists {
-    list-style: none;
+
+h1 {
+    font-size: ;
 }
 
-.living-lists .living-item a {
-    color: black;
+header {
+    color: red;
+}
+
+header h1,
+footer h1 {
+    color: blue;
+}
+
+header p,
+footer p {
+    color: green;
+}
+
+footer h1 {
+    color: blue;
+}
+
+footer p {
+    color: green;
+}
+
+
+h1 {
+    color: red;
+}
+
+#test1 {
+    color: blue;
+} 
+
+.test2 {
+    color: chartreuse;
+}
+
+input[type="text"] {
+    border: solid 10px red;
+}
+
+input[type="password"] {
+    border: solid 10px blue;
+}
+
+
+
+.bg-1 {
+    background-color: red;
+}
+
+.font-size-1 {
+    font-size: 50px;
+}
+
+#color-1 {
+    color: red;
+}
+
+#intro h2 {
+    color: burlywood;
+}
+
+#intro .container p {
+    color: cornflowerblue;
+}
+
+
+h1 {
+    color: red;
+}
+
+#color-2 {
+    color: pink;
+}
+
+.color-1 {
+    color: chartreuse;
+}
+
+h1 {
+    color: blue;
+}
+
+
+#intro .container h1 {
+    color: pink;
+}
+
+#intro div h1 {
+    color: green;
+}
+
+#intro h1 {
+    color: blue;
+}
+
+header h1 {
+    color: red;
+}
+
+
+
+div {
+    width: 500px;
+    height: 300px;
+
+    min-width: 600px;
+    max-width: 800px;
+
+    min-height: ;
+    max-height: ;
+
+    border: solid 10px pink;
+    border-radius: 50px;
+
+    background-color: palevioletred;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Open Sans Condensed', sans-serif;sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+
+    background-color: ivory;
+
+    opacity: 1;
+}
+
+div a {
     text-decoration: none;
 }
 
-.living-lists .living-item .living-info .type {
-    color: #c08d31;
-    font-weight: 700;
-    font-size: 12px;
-}
-.living-lists .living-item .living-info .title {
-    font-size: 13px;
-    color: black;
+ul {
+    list-style: none;
 }
 
-.living-lists .living-item .living-info .paragraph {
-    font-size: 13px;
-    color: #404040;
-    line-height: 20px;
+
+#bg {
+    width: 1500px;
+    height: 1500px;
+    background-color:black;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.living-lists .living-item .living-info .date-wrap .source,
-.living-lists .living-item .living-info .date-wrap .date {
-    font-size: 12px;
-    color: #505050;
+
+
+
+a:link {
+    color: palegoldenrod;
 }
 
-.living-lists .living-item .living-info .date-wrap .date {
-    color: grey;
+a:active {
+    color: blueviolet
 }
 
-.living-lists .living-item .living-info .date-wrap .date::before {
-    content: '-';
+a:hover {
+    color: chocolate;
 }
 
-.living-lists .living-item:hover {
-    background-color:gray;
+input:focus {
+    border: solid 5px;
 }
 
-.living-lists .living-item a:hover .living-info .title {
-    text-decoration: underline;
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: seagreen;
+}
+
+li:nth-child(2n + 1) {
+    color: skyblue;
+}
+
+
+
+li::before {
+    content: "***";
+}
+
+li::after {
+    content: "***";
 }
